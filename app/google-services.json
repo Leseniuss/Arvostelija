@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225669487687",
+    "project_id": "arvostelija-c2ebf",
+    "storage_bucket": "arvostelija-c2ebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225669487687:android:ee602c1f01d10a12bda562",
+        "android_client_info": {
+          "package_name": "com.example.arvostelija"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225669487687-dh1h5c4lfc7u1dtc0qe27upiq47caf9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBxBBBAPDzzrVCeWxDRYIF0cLnDrb8R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225669487687-dh1h5c4lfc7u1dtc0qe27upiq47caf9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
