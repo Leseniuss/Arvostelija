@@ -31,7 +31,7 @@ class fragment1 : Fragment() {
 
         }
 
-
+    // gitti testi
 
 
         return view
