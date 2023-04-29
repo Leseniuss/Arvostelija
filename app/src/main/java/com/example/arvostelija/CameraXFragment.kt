@@ -34,8 +34,7 @@ import java.util.concurrent.Executors
 
 typealias CornersListener = () -> Unit
 
-typealias LumaListener = (luma: Double) -> Unit
-typealias LumaListener2 = (luma2: Double) -> Unit
+
 
 
 class CameraXFragment : Fragment() {
@@ -127,17 +126,6 @@ class CameraXFragment : Fragment() {
             imageCapture = ImageCapture.Builder()
                 .build()
 
-           /* val imageAnalyzer = ImageAnalysis.Builder()
-                .build()
-                .also {
-                    it.setAnalyzer(cameraExecutor, LuminosityAnalyzer { luma ->
-                        val lumatag: Double = luma
-                        Log.i(TAG, "Average luminosity: $luma")
-
-
-                        if (lumatag < 100 || lumatag > 110 ) { takePhoto() }
-                    })
-                } */
 
 
 
@@ -170,11 +158,7 @@ class CameraXFragment : Fragment() {
 
         // Get a stable reference of the modifiable image capture use case
 
-        /* val lumaperkele = LuminosityAnalyzer2 { luma ->
-             Log.d("photo2222","Average luminosityyyyyyy: $luma")
-             Log.i(TAG, "Average luminosity: $luma")
 
-         } */
 
         val contentResolver: ContentResolver = requireActivity().contentResolver
 
