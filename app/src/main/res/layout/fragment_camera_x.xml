@@ -21,17 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="450dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="-2dp">
 
-        <RatingBar
-            android:id="@+id/ratingBar2"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="20dp"
-            android:visibility="visible"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:visibility="visible" />
     </androidx.camera.view.PreviewView>
 
 
